@@ -1,0 +1,61 @@
+.sidenav {
+  height: 100%;
+  width: 210px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: royalblue;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+body {
+  font-family: 'poppins' !important;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: black;
+}
+
+.main-container {
+  width: 100%;
+  margin: auto;
+}
+
+.logo-icon {
+  width: 80px;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+
+.sidenav .active {
+  color: black;
+}
+
+.logout-icon {
+  float: right;
+  margin-right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.bottom-text {
+  position: absolute;
+  bottom: 0;
+  font-size: 12px;
+  text-align: center;
+  margin: auto;
+  display: block;
+  float: none;
+  color: white;
+  left: 20px;
+}
